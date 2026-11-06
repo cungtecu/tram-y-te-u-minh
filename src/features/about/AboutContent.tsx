@@ -18,9 +18,9 @@ export function AboutContent({ introduction }: { introduction?: string }) {
           </Reveal>
           <Reveal className="about-visual">
             <img
-              className="clinic-figure"
-              src="/clinic.svg"
-              alt="Minh họa trạm y tế"
+              className="about-photo"
+              src="/images/about/tram-y-te-u-minh.webp"
+              alt="Góc nhìn từ dưới lên tại cổng Trạm Y tế xã U Minh"
             />
           </Reveal>
         </div>
