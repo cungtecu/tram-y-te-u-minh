@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment & secrets
+.env*
+!.env.example
+
+# Logs
+*.log
+
+# User uploads
+public/uploads/
+
+# TypeScript
+*.tsbuildinfo
