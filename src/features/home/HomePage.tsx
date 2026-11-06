@@ -26,9 +26,11 @@ export function HomePage({
           <div>
             <span className="eyebrow">Vì một U Minh khỏe mạnh</span>
             <h1>
-              Chăm sóc tận tâm.
+              Trạm Y tế xã 
               <br />
-              <em>Sức khỏe vững bền.</em>
+              U MINH
+              <br />
+              <em>Vì sức khỏe cộng đồng bền vững</em>
             </h1>
             <p>
               Chào mừng đến với trang thông tin Trạm Y tế xã U Minh. Cùng tiếp
