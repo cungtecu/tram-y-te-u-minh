@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Header, Footer } from "@/components/layout";
+import { SITE_IMAGES } from "@/config/media";
 import "./globals.css";
 import "./modern.css";
 const montserrat = Montserrat({
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
   },
   description:
     "Trang giới thiệu, tin tức, thông báo và thư viện ảnh Trạm Y tế xã U Minh.",
+  icons: { icon: SITE_IMAGES.stationLogo },
 };
 export default function RootLayout({
   children,

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { siteConfig } from "@/config/site";
+import { StationLogo } from "@/components/ui";
 export function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -19,7 +20,7 @@ export function Header() {
       <header className="header">
         <div className="container nav">
           <Link href="/" className="brand">
-            <span className="brandmark">✚</span>
+            <span className="brandmark"><StationLogo /></span>
             <span className="brandtext">
               <small>Cổng thông tin y tế</small>TRẠM Y TẾ
               <br />
