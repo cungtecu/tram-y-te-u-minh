@@ -27,7 +27,8 @@
   width: 46px;
   height: 46px;
   background: #ffffff20;
-  border-radius: 14px;
+  border-radius: 50%;
+  overflow: hidden;
   font-size: 27px;
 }
 .sidebarHeading strong {

@@ -1,4 +1,5 @@
 /** Đường dẫn tài nguyên giao diện cố định, dùng chung giữa các trang. */
 export const SITE_IMAGES = {
   clinicEntrance: "/images/about/tram-y-te-u-minh.webp",
+  stationLogo: "/images/branding/tram-y-te-u-minh-logo.jpg",
 } as const;

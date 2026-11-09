@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { StationLogo } from "@/components/ui";
 import styles from "./AdminDashboard.module.css";
 
 type ItemType = "posts" | "announcements" | "photos" | "services";
@@ -263,7 +264,7 @@ export function AdminDashboard() {
     <div className={styles.shell}>
       <aside className={styles.sidebar}>
         <div className={styles.sidebarHeading}>
-          <span>✚</span>
+          <span><StationLogo /></span>
           <div>
             <strong>TYT U MINH</strong>
             <small>Quản lý nội dung</small>

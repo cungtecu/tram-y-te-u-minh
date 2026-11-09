@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import { StationLogo } from "@/components/ui";
 export function Footer() {
   return (
     <footer className="footer">
@@ -7,7 +8,7 @@ export function Footer() {
         <div className="foot-grid">
           <div>
             <Link href="/" className="brand">
-              <span className="brandmark">✚</span>
+              <span className="brandmark"><StationLogo /></span>
               <span className="brandtext">
                 <small>Cổng thông tin y tế</small>TRẠM Y TẾ XÃ U MINH
               </span>
