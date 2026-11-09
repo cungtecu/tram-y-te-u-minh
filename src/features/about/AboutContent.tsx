@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SITE_IMAGES } from "@/config/media";
 import { Reveal } from "@/components/ui";
 export function AboutContent({ introduction }: { introduction?: string }) {
   return (
@@ -19,7 +20,7 @@ export function AboutContent({ introduction }: { introduction?: string }) {
           <Reveal className="about-visual">
             <img
               className="about-photo"
-              src="/images/about/tram-y-te-u-minh.webp"
+              src={SITE_IMAGES.clinicEntrance}
               alt="Góc nhìn từ dưới lên tại cổng Trạm Y tế xã U Minh"
             />
           </Reveal>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SITE_IMAGES } from "@/config/media";
 import { Reveal } from "@/components/ui";
 import { ServiceGrid } from "@/features/services";
 import { NewsGrid } from "@/features/news";
@@ -99,9 +100,9 @@ export function HomePage({
         <div className="container about">
           <Reveal className="about-visual">
             <img
-              className="clinic-figure"
-              src="/clinic.svg"
-              alt="Minh họa cơ sở y tế"
+              className="about-photo"
+              src={SITE_IMAGES.clinicEntrance}
+              alt="Cổng Trạm Y tế xã U Minh nhìn từ góc thấp"
             />
             <div className="about-stamp">
               ✚ &nbsp; Sức khỏe cộng đồng là trọng tâm
