@@ -493,6 +493,10 @@ img {
   line-height: 2;
   color: #748789;
 }
+.about .about-introduction {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .checklist {
   padding: 0;
   margin: 25px 0 28px;
