@@ -9,7 +9,7 @@ export function AboutContent({ introduction }: { introduction?: string }) {
           <Reveal>
             <span className="kicker">Về chúng tôi</span>
             <h2>Vì sức khỏe người dân U Minh</h2>
-            <p>{introduction || "Trạm Y tế xã U Minh là cơ sở y tế tuyến xã, hướng đến chăm sóc sức khỏe ban đầu, y tế dự phòng và truyền thông giáo dục sức khỏe cho cộng đồng."}</p>
+            <p className="about-introduction">{introduction || "Trạm Y tế xã U Minh là cơ sở y tế tuyến xã, hướng đến chăm sóc sức khỏe ban đầu, y tế dự phòng và truyền thông giáo dục sức khỏe cho cộng đồng."}</p>
             <ul className="checklist">
               <li>Chăm sóc sức khỏe ban đầu</li>
               <li>Nâng cao nhận thức phòng bệnh</li>

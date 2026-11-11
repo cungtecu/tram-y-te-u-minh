@@ -115,7 +115,7 @@ export function HomePage({
               <br />
               Hiểu sức khỏe hơn.
             </h2>
-            <p>
+            <p className="about-introduction">
               Trạm Y tế xã U Minh là điểm kết nối chăm sóc sức khỏe ban đầu tại
               địa phương. Website giúp người dân dễ dàng tìm kiếm thông tin,
               tiếp cận các hướng dẫn hữu ích và theo dõi hoạt động của trạm.
