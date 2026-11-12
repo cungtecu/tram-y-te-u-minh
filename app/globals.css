@@ -41,6 +41,10 @@ a {
 img {
   max-width: 100%;
 }
+/* Kích thước mặc định cho nội dung đoạn văn (không ảnh hưởng menu/nút). */
+p {
+  font-size: 15px;
+}
 .container {
   max-width: 1220px;
   margin: auto;
@@ -236,7 +240,7 @@ img {
 .hero p {
   max-width: 530px;
   color: #657b7e;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
   margin-bottom: 30px;
 }
@@ -394,7 +398,7 @@ img {
   color: var(--muted);
   max-width: 660px;
   margin: 10px 0 0;
-  font-size: 13px;
+  font-size: 15px;
 }
 .text-link {
   color: #06877b;
@@ -452,7 +456,7 @@ img {
   font-weight: 900;
 }
 .service p {
-  font-size: 11px;
+  font-size: 13px;
   color: #7b8e8c;
   line-height: 1.8;
   margin: 0 0 18px;
@@ -489,7 +493,7 @@ img {
   box-shadow: var(--shadow);
 }
 .about p {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 2;
   color: #748789;
 }
@@ -602,7 +606,7 @@ img {
   font-weight: 700;
 }
 .news-card p {
-  font-size: 11px;
+  font-size: 13px;
   color: #829291;
 }
 .filters {
@@ -651,7 +655,7 @@ img {
   font-size: 31px;
 }
 .notice-intro p {
-  font-size: 12px;
+  font-size: 14px;
   color: #d0e9e5;
   max-width: 330px;
 }
@@ -747,7 +751,7 @@ img {
 }
 .contact-info p {
   color: #738a89;
-  font-size: 13px;
+  font-size: 15px;
 }
 .contact-note {
   background: #e5f4ee;
@@ -819,11 +823,16 @@ img {
   font-size: 13px;
   color: white;
 }
+.footer p {
+  font-size: 13px;
+}
 .footer p,
 .footer a {
-  font-size: 11px;
   line-height: 2.2;
   color: #a6ccc7;
+}
+.footer a {
+  font-size: 11px;
 }
 .footer a:hover {
   color: #fff;
@@ -907,7 +916,7 @@ img {
 }
 .modal-content p {
   color: #657e7e;
-  font-size: 12px;
+  font-size: 14px;
 }
 .sample {
   font-size: 10px;
@@ -1193,7 +1202,7 @@ img {
 }
 .gallery-disclaimer {
   color: #88a09b;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 16px;
 }
 @media (max-width: 900px) {
